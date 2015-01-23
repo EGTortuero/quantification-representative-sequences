@@ -538,12 +538,9 @@ if ($option eq "-RM") {
 	my $designfile = "";
 	my $allowedmismatches = "";
 	my $hmmthr = "";
-	my $samplefile = "";
-	my $outname = "";
 	my $cutoff = "";
 	my $aligner = "";
 	my $reformalswitch = "";
-	my $nohaplswitch = "";
 	my $minclustersize = "";
  
 	# Batch mode or interactive mode?
@@ -2257,7 +2254,7 @@ Quantification of Representative Sequence (QRS.pl)
 
 =head1 DESCRIPTION
 
-QRS is a script written in Perl 5.14.2 that allows analysing 454 pyrosequencing platform sequences automatically to study population structure. This program may operate either in batch processing mode where all sequences are automatically analysed in an unsupervised way or it may interact with the user at various checkpoints if no parameters have been specified prior to execution.
+QRS is a script written in Perl 5.14.2 that allows analysing NGS datasets automatically to study population structure. Currently, this pipeline is optimized for pyrosequencing platform sequences but it is possible to use it for another NGS technologies like Ion Torrent. This program may operate either in batch processing mode where all sequences are automatically analysed in an unsupervised way or it may interact with the user at various checkpoints if no parameters have been specified prior to execution.
 
 =head1 USAGE
 
