@@ -1,5 +1,4 @@
 # quantification-representative-sequences
-Automatically exported from code.google.com/p/quantification-representative-sequences
 
 QRS is a script (originally written in Perl 5.14.2, now in Python 3.4 with access to R using RPy2 module) that allows analyzing amplicon sequencing datasets automatically to study population structure. Currently, this pipeline is optimized for pyrosequencing platform sequences but it is possible to use it for another NGS technologies like Ion Torrent. This program may operate either in batch processing mode where all sequences are automatically analyzed in an unsupervised way or it may interact with the user at various checkpoints if no parameters have been specified prior to execution.
 
